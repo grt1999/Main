@@ -1,0 +1,64 @@
+.card {
+  display: flex;
+  align-items: center;
+  background-color: #1A1A1A;
+  padding: 32px;
+  border-radius: 30px;
+
+  .wrapper {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+
+    .col {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+
+      .pairs {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+
+        .col {
+          margin-left: 6px;
+        }
+      }
+
+      .icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+      }
+
+      .title {
+        font-size: 16px;
+      }
+
+      .data {
+        font-size: 22px;
+      }
+
+      .apy {
+        color: #33C854;
+      }
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+
+  .button {
+    margin: 0;
+    margin-left: auto;
+    font-size: 18px;
+    text-decoration: underline;
+    cursor: pointer;
+
+    &:hover {
+      color: #f4f4f4;
+    }
+  }
+
+}
